@@ -63,7 +63,7 @@ body {
 }
 .header button,
 .header input {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .header button {
   display: block;
@@ -110,18 +110,19 @@ body {
     width: 200px;
     font-size: 2rem;
     height: 4rem;
-    margin-top: 20px;
+    margin: 0;
     vertical-align: middle;
   }
   .header button {
     display: inline;
     width: 30%;
+    vertical-align: middle;
   }
   .result h2 {
     margin-top: -20px;
     font-size: 1.1rem;
   }
   .result h3 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
