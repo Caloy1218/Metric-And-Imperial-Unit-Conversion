@@ -10,6 +10,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800&family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap"
       rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Metric And Imperial Conversion</title>
   </head>
   <body>
@@ -18,21 +21,31 @@
     <div class="miConversion-Container">
       <div class="miConversion">
         <div class="header">
-          <h1>Metric/Imperial Unit Conversion</h1>
-          <input type="number" name="Number: " id="inputNum" />
-          <button id="convertBtn">Convert</button>
+          <h1 class="animate__animated animate__lightSpeedInRight">
+            Metric/Imperial Unit Conversion
+          </h1>
+          <input
+            type="number"
+            name="Number: "
+            id="inputNum"
+            class="animate__animated animate__backInLeft" />
+          <button class="animate__animated animate__backInDown" id="convertBtn">
+            Convert
+          </button>
         </div>
         <div class="miConversion-result">
           <div class="result">
-            <h2>Length(Meter/Feet)</h2>
+            <h2 id="meterFeet"></h2>
             <h3 id="length"></h3>
           </div>
           <div class="result">
-            <h2>Volume(Liters/Gallons)</h2>
+            <h2
+              id="litersGallon"
+              class="animate__animated animate__fadeIn"></h2>
             <h3 id="volume1"></h3>
           </div>
           <div class="result">
-            <h2>Mass(Kilograms/Pounds)</h2>
+            <h2 id="kgLbs" class="animate__animated animate__fadeIn"></h2>
             <h3 id="mass"></h3>
           </div>
         </div>
