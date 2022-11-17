@@ -19,21 +19,24 @@
     <div class="rightTop"></div>
     <div class="bgFancy"></div>
     <div class="miConversion-Container">
-      <div class="miConversion">
+      <div class="miConversion animate__animated animate__backInLeft">
         <div class="header">
-          <h1 class="animate__animated animate__lightSpeedInRight">
-            Metric/Imperial Unit Conversion
+          <h1 class="animate__animated animate__swing">
+            Metric/Imperial Converter
           </h1>
-          <input
-            type="number"
-            name="Number: "
-            id="inputNum"
-            class="animate__animated animate__backInLeft" />
-          <button class="animate__animated animate__backInDown" id="convertBtn">
-            Convert
-          </button>
+          <div class="inputBtn-container">
+            <input
+              type="number"
+              name="Number: "
+              id="inputNum"
+              class="animate__animated animate__backInLeft" />
+            <button class="animate__animated animate__swing" id="convertBtn">
+              Convert
+            </button>
+          </div>
         </div>
-        <div class="miConversion-result">
+        <div
+          class="miConversion-result animate__animated animate__fadeInRightBig">
           <div class="result">
             <h2 id="meterFeet"></h2>
             <h3 id="length"></h3>
